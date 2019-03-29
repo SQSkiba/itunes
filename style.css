@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Candara;
+    font-size: large;
+}
+h1{
+    border-style: double;
+    font-family: Impact;
+    background-color: mistyrose;
+}
+#table{
+    border-style: double;
+    background-color: mistyrose;
+    font-size: large;
+
+}
+#artistName{
+    font-size: 30px;
+    font-family: Impact;
+}
+
+#select{
+    color: red;
+    font-size: small;
+}
