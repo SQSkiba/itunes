@@ -1,17 +1,24 @@
 body {
     text-align: center;
-    background-color: whitesmoke;
-    font-family: Candara;
+    background-color: lightcyan;
+   font-family: Palatino;
+
     font-size: large;
 }
 h1{
-    border-style: double;
-    font-family: Impact;
-    background-color: mistyrose;
+
+    /*font-family: Impact;*/
+    font-family: "Times New Roman";
+    font-weight: bold;
+    background-color: lightblue;
+}
+h1:hover{
+    background-color: lightsteelblue;
+
 }
 #table{
-    border-style: double;
-    background-color: mistyrose;
+
+    background-color: lightblue;
     font-size: large;
 
 }
@@ -20,7 +27,39 @@ h1{
     font-family: Impact;
 }
 
-#select{
-    color: red;
-    font-size: small;
+.select{
+    position: relative;
+    display: inline-block;
+    background-color: lavender;
+}
+.select:hover {
+    opacity: 0.5;
+}
+
+.select-content {
+    display: block;
+    background-color: mistyrose;
+    opacity: 0.5;
+}
+
+
+
+#showResults{
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.3s;
+    cursor: grab;
+    font-size: large;
+}
+#showResults:hover{
+    background-color: steelblue ;
+    color: white;
+    /*box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);*/
+}
+#showResults:active{
+    transform: translateY(4px);
+    cursor: grabbing;
 }
